@@ -1,0 +1,29 @@
+name: Website feedback
+description: Suggest an improvement to the Sehgal website design
+title: "[Website feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for reviewing the design. Feedback here is public. Do not include phone numbers, customer details or booking requests."
+  - type: input
+    id: page
+    attributes:
+      label: Page or section
+      placeholder: For example, Commercial or Service booking
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would you like improved?
+      placeholder: Describe the issue or suggestion and the change you would prefer.
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device used
+      options:
+        - Computer
+        - Phone
+        - Tablet
