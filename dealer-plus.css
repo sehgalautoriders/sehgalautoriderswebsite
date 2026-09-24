@@ -1,0 +1,37 @@
+/* Dealer additions, 24-09-2026: compare, lenders, insurance, spares, safety, CSR. Uses the tokens in styles.css. */
+@media(max-width:1280px){.menu-toggle{display:flex;align-items:center;gap:12px;border:1px solid var(--line);padding:10px 14px;min-height:44px;background:white;border-radius:5px;margin-left:auto}.header-actions .icon-button{display:none}nav{display:none;position:absolute;top:100%;left:0;right:0;padding:20px 5%;background:white;border-bottom:1px solid var(--line);box-shadow:0 20px 30px #081f3510;flex-direction:column;align-items:start}nav.open{display:flex}nav a{font-size:1rem;width:100%}}
+.not-published{color:var(--muted);font-style:italic;font-size:.85em}
+.stars{color:#c98a00;letter-spacing:.08em;font-size:1.05rem;white-space:nowrap}
+.best{background:#e6f8f3;box-shadow:inset 3px 0 0 #1a9c84}
+.spec-table-wrap{border:1px solid var(--line);border-radius:12px;margin-top:26px}
+.spec-table th[scope=row]{position:sticky;left:0;background:var(--wash);z-index:1;min-width:150px;font-weight:600}
+.spec-table thead th{vertical-align:bottom;min-width:210px}
+.spec-table thead th img{height:80px;width:100%;object-fit:contain;margin-bottom:10px}
+.spec-table thead th a{font-family:Manrope,sans-serif;font-size:1.15rem}
+.spec-table td,.lender-table td,.ncap-table td{padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.lender-table th[scope=row],.ncap-table th[scope=row]{background:white;font-weight:600}
+.form-grid.three{grid-template-columns:repeat(3,1fr)}
+.compare-pickers .meta{margin:18px 0 0}
+.small-chip{min-height:36px;padding:6px 14px;margin:4px 4px 0 0}
+.key-specs{grid-template-columns:repeat(3,1fr);margin-bottom:8px}
+.peer-title{margin-top:28px}
+.check-list{padding-left:20px;line-height:1.6;margin:0 0 14px}
+.check-list li{margin-bottom:6px}
+.addon-list{margin:0 0 14px}
+.addon-list div{padding:10px 0;border-bottom:1px solid var(--line)}
+.addon-list dt{font-weight:600}
+.addon-list dd{margin:4px 0 0;color:var(--muted);font-size:.92rem;line-height:1.5}
+.section-tight{margin-top:30px}
+.tiles.four{grid-template-columns:repeat(4,1fr)}
+.status-pill{display:inline-block;font-size:.72rem;letter-spacing:.04em;padding:5px 10px;border-radius:20px;font-weight:600}
+.status-pill.pending{background:#fff1dc;color:#8a4b00}
+.essentials-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:14px}
+.essentials-grid a{display:grid;gap:8px;align-content:start;border:1px solid var(--line);border-radius:12px;padding:20px 18px;min-height:130px;position:relative;transition:border-color .2s,transform .2s}
+.essentials-grid a:hover{border-color:var(--navy);transform:translateY(-2px)}
+.essentials-grid b{font-family:Manrope,sans-serif;font-size:1.05rem}
+.essentials-grid small{color:var(--muted);line-height:1.45}
+.essentials-grid span{position:absolute;right:16px;bottom:14px}
+#ncb-result{grid-column:1/-1}
+@media(max-width:1100px){.essentials-grid{grid-template-columns:repeat(4,1fr)}.tiles.four{grid-template-columns:1fr 1fr}}
+@media(max-width:750px){.form-grid.three{grid-template-columns:1fr}.essentials-grid{grid-template-columns:1fr 1fr}.key-specs{grid-template-columns:1fr 1fr}.tiles.four{grid-template-columns:1fr}.spec-table thead th{min-width:170px}.spec-table th[scope=row]{min-width:110px}}
+@media(prefers-reduced-motion:reduce){.essentials-grid a{transition:none}.essentials-grid a:hover{transform:none}}

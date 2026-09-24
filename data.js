@@ -37,7 +37,7 @@ const SEHGAL = {
 /* Complete official model photography, checked 09-09-2026. */
 Object.assign(SEHGAL.photos, {
   "swift": {
-    "src": "assets/vehicles/swift.png",
+    "src": "assets/vehicles/swift.webp",
     "alt": "Swift — official Maruti Suzuki vehicle image",
     "source": "https://www.marutisuzuki.com/arena/swift",
     "oem": true,
@@ -117,12 +117,12 @@ Object.assign(SEHGAL.photos, {
     "height": 260
   },
   "e-vitara": {
-    "src": "assets/vehicles/e-vitara.png",
+    "src": "assets/vehicles/e-vitara.webp",
     "alt": "e VITARA — official Maruti Suzuki vehicle image",
     "source": "https://www.nexaexperience.com/e-vitara",
     "oem": true,
-    "width": 4000,
-    "height": 2245
+    "width": 1400,
+    "height": 786
   },
   "baleno": {
     "src": "assets/vehicles/baleno.png",
@@ -133,7 +133,7 @@ Object.assign(SEHGAL.photos, {
     "height": 450
   },
   "fronx": {
-    "src": "assets/vehicles/fronx.png",
+    "src": "assets/vehicles/fronx.webp",
     "alt": "FRONX — official Maruti Suzuki vehicle image",
     "source": "https://www.nexaexperience.com/fronx",
     "oem": true,
@@ -141,7 +141,7 @@ Object.assign(SEHGAL.photos, {
     "height": 766
   },
   "grand-vitara": {
-    "src": "assets/vehicles/grand-vitara.png",
+    "src": "assets/vehicles/grand-vitara.webp",
     "alt": "Grand Vitara — official Maruti Suzuki vehicle image",
     "source": "https://www.nexaexperience.com/grand-vitara",
     "oem": true,
@@ -149,7 +149,7 @@ Object.assign(SEHGAL.photos, {
     "height": 739
   },
   "xl6": {
-    "src": "assets/vehicles/xl6.png",
+    "src": "assets/vehicles/xl6.webp",
     "alt": "XL6 — official Maruti Suzuki vehicle image",
     "source": "https://www.nexaexperience.com/xl6",
     "oem": true,
@@ -157,7 +157,7 @@ Object.assign(SEHGAL.photos, {
     "height": 555
   },
   "jimny": {
-    "src": "assets/vehicles/jimny.png",
+    "src": "assets/vehicles/jimny.webp",
     "alt": "Jimny — official Maruti Suzuki vehicle image",
     "source": "https://www.nexaexperience.com/jimny",
     "oem": true,
@@ -165,7 +165,7 @@ Object.assign(SEHGAL.photos, {
     "height": 767
   },
   "invicto": {
-    "src": "assets/vehicles/invicto.png",
+    "src": "assets/vehicles/invicto.webp",
     "alt": "Invicto — official Maruti Suzuki vehicle image",
     "source": "https://www.nexaexperience.com/invicto",
     "oem": true,
@@ -174,7 +174,7 @@ Object.assign(SEHGAL.photos, {
   }
 });
 
-SEHGAL.photos.brezza.detailSrc='assets/oem-campaigns/brezza-lifestyle.jpg';
+SEHGAL.photos.brezza.detailSrc='assets/oem-campaigns/brezza-lifestyle.webp';
 SEHGAL.photos.baleno.detailSrc='assets/oem-campaigns/baleno-desktop.jpg';
 
 // Matching Baleno image from the supplied NEXA archive; original bytes preserved.
